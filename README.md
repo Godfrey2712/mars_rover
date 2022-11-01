@@ -14,6 +14,8 @@ This was done by running a test to check if the result of the output values from
 
 The images of these can be seen in this repo.
 
+Run Test by using this command $py test.py $py -3 test.py
+
 Default values to input to test:
 -What is the Grid Size?
 Input: 5 5
@@ -23,3 +25,11 @@ Input: 1 1 N
 
 - How do you want your Robot to move?
 Input: f f r f l f l f
+
+# OUTPUT
+('OUTPUT:', 1, 4, 'W')
+
+If the above values are inputted, this will be the output on the console.
+
+For the test to fail, change this value in the test.py
+
